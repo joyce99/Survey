@@ -1,0 +1,45 @@
+# CDM Survey 项目依赖包
+# 使用方式: pip install -r requirements.txt
+
+# 深度学习框架
+torch>=1.8.0
+torchvision>=0.9.0
+torchaudio>=0.8.0
+
+# 数值计算和科学计算
+numpy>=1.19.0
+scipy>=1.5.0
+
+# 机器学习工具
+scikit-learn>=0.24.0
+
+# 数据处理
+pandas>=1.2.0
+
+# 进度条和工具
+tqdm>=4.50.0
+
+# 可视化（可选）
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Jupyter支持（可选，用于example/ICD/prepare_dataset.ipynb）
+jupyter>=1.0.0
+notebook>=6.1.0
+ipykernel>=5.3.0
+
+# 注意事项：
+# 1. PyTorch 建议从官网安装对应的CUDA版本：
+#    https://pytorch.org/get-started/locally/
+#
+#    CPU版本：
+#    pip install torch torchvision torchaudio
+#
+#    CUDA 11.8版本：
+#    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+#    CUDA 12.1版本：
+#    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# 2. 如果只需要运行基础功能，matplotlib、seaborn、jupyter可以不安装
+
