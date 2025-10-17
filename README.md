@@ -494,11 +494,11 @@ foreach ($model in $models) {
 
 如果您在研究中使用了本项目，请引用相关的模型论文以及本项目：
 
-```bibtex
-@misc{cdm_survey_2024,
-  title={CDM Survey: A Comprehensive Collection of Cognitive Diagnosis Models},
-  author={joyce99 and xushengyu1},
-  year={2024},
+```bibtex example
+@misc{cdm_survey_2025,
+  title={ Survey of Cognitive Diagnosis in intelligent education: Theory, Methods and Experiments},
+  author={Yuhong Zhang and Shengyu Xu},
+  year={2025},
   howpublished={\url{https://github.com/joyce99/Survey}},
   note={GitHub repository}
 }
@@ -512,11 +512,12 @@ foreach ($model in $models) {
 
 ---
 
-**最后更新**: 2024
+**最后更新**: 2025
 
 **项目维护**: [@joyce99](https://github.com/joyce99), [@xushengyu1](https://github.com/xushengyu1)
 
 **开发环境**: Python 3.8, PyTorch 1.13, CUDA 11.8
 
 **项目主页**: https://github.com/joyce99/Survey
+
 
